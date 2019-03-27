@@ -1,0 +1,24 @@
+{
+  "name": "jw-player-contextual-playlist-creator",
+  "version": "1.0.0",
+  "description": "Generates and makes an API call for creating a contextual playlist in the JW Player platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamcrampton/jw-player-contextual-playlist-creator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamcrampton/jw-player-contextual-playlist-creator/issues"
+  },
+  "homepage": "https://github.com/adamcrampton/jw-player-contextual-playlist-creator#readme",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "request": "^2.88.0"
+  }
+}
