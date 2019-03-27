@@ -40,10 +40,10 @@ for (let i=0; i < playlistLength; i++) {
 // =======
 // Nonce generator - see https://stackoverflow.com/questions/1349404/generate-random-string-characters-in-javascript
 function makeNonce(length) {
-    var nonce = "";
-    var possible = "0123456789";
+    let nonce = "";
+    let possible = "0123456789";
   
-    for (var i = 0; i < length; i++) {
+    for (let i = 0; i < length; i++) {
         nonce += possible.charAt(Math.floor(Math.random() * possible.length));
     }
 
